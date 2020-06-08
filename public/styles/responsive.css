@@ -1,0 +1,80 @@
+@media (max-width: 900px) {
+    #page-home{
+        background-position-x: 70vw;
+        background-position-y: 100%;
+    }
+    
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    
+    #page_home header a {
+        width: 80%;
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-home main h1 {
+        font-size: 32px;
+    }
+
+    #page-home main p {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    #page-home main a {
+        width: 80%;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        align-items: center;
+    }
+
+    #page-search-results .card img {
+        height: 250px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+    #page-create-point .field-group .field+ .field {
+        margin-left: 0;
+    }
+
+    #page-create-point form input,
+    form select {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home{
+        background-position-x: 40vw;
+    }
+
+}
+
+@media (max-width: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
